@@ -19,6 +19,8 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #ffffff;
     color: #e708b7;
+    display:flex;
+  
 }
 
 .divider {
@@ -27,7 +29,7 @@ header {
 }
 
 .header1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .katie-picture {
@@ -44,28 +46,20 @@ header {
 
 }
 
-.header0 {
-    display: flex;
-    justify-content: space-between
-}
 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
+    text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
     color: #e708b7;
 }
 
-header nav ul {
-    display: flex;
-
-}
-
 header nav ul li {
     display: inline-block;
     color: black;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .about-me {
@@ -74,7 +68,7 @@ header nav ul li {
 }
 
 .header2 {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 15px;
     text-align: center;
@@ -108,7 +102,7 @@ header nav ul li {
 }
 
 .card header {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
@@ -124,10 +118,9 @@ header nav ul li {
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    text-align: center;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 20px;
+    line-height: 35px;
 }

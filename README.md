@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## Description: This is my portfolio website. I made it unique to me. I added my picture and information about me. I have anchor links ready to go for when I launch my applications. Designing this website was a fun!
+## Description: This is my portfolio website. You will find my contact information and samples of my work. Enjoy! & I hope to hear from you soon. 
 
 Deployed Webpage: https://krchandler27.github.io/portfolio-site/
 
