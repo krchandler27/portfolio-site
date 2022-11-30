@@ -4,4 +4,4 @@
 
 Deployed Webpage: https://krchandler27.github.io/portfolio-site/
 
-![webpage](https://user-images.githubusercontent.com/116527506/202934023-32456e18-0424-47ce-ba08-541a10190c1d.JPG)
+![webpage](https://user-images.githubusercontent.com/116527506/204732566-3075e0b1-f0bb-45f4-8b4e-daf0741b3158.JPG)
