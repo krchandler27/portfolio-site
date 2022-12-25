@@ -6,6 +6,7 @@
 
 a {
     color: inherit;
+    text-align: center;
 }
 
 body {
@@ -19,8 +20,8 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #ffffff;
     color: #e708b7;
-    display:flex;
-  
+    display: flex;
+    justify-content: center;
 }
 
 .divider {
@@ -99,11 +100,12 @@ header nav ul li {
     padding: 10px;
     flex: 0 0 300px;
     margin: 20px;
+    text-align: center;
 }
 
 #horiseon {
-text-align: center;
-justify-content: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .card header {
