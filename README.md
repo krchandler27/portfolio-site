@@ -1,8 +1,8 @@
 # Portfolio Website
 
-## Description: This is my portfolio website. You will find my contact information and samples of my work. Enjoy! & I hope to hear from you soon. 
+## Description: This website has information about me and displays some of my latest work. 
 
-Deployed Webpage: [Link](https://krchandler27.github.io/portfolio-site/)
+Deployed Webpage: [Click Here](https://krchandler27.github.io/portfolio-site/)
  
 
-![webpage](https://user-images.githubusercontent.com/116527506/204732566-3075e0b1-f0bb-45f4-8b4e-daf0741b3158.JPG)
+![webpage](https://user-images.githubusercontent.com/116527506/209578442-b50e4e67-8d69-46d7-950b-299e95d0afa4.JPG)
