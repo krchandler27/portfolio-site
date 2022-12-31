@@ -1,7 +1,17 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+}
+
+html {
+    padding: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+:not(html)>header {
+    margin-right: -150px;
+    margin-left: -150px;
 }
 
 a {
@@ -16,12 +26,10 @@ body {
 }
 
 header {
-    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #ffffff;
     color: #e708b7;
-    display: flex;
-    justify-content: center;
+    border-radius: 25px;
 }
 
 .divider {
@@ -31,7 +39,9 @@ header {
 
 .header1 {
     font-size: 45px;
-}
+    padding-top: 20px;
+    padding-left: 15px;
+  }
 
 .katie-picture {
     display: block;
@@ -39,47 +49,48 @@ header {
     max-height: 500px;
     width: auto;
     height: auto;
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px;
-    flex: 0 0 300px;
+      flex: 0 0 300px;
     margin: 20px;
+    border-radius: 50px;
+    border: 10px solid white;
 
 }
 
-
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    text-align: left;
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
-    color: #e708b7;
-}
-
-header nav ul li {
-    display: inline-block;
     color: black;
-    padding-left: 50px;
+   padding-bottom: 10px;
 }
 
 .about-me {
     display: flex;
     color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#about-me-word {
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .header2 {
     font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 15px;
     text-align: center;
 }
 
 .info {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 15px;
     padding-left: 20px;
+    margin-top: 20px;
+    text-align: justify;
 }
 
 .work {
@@ -100,6 +111,8 @@ header nav ul li {
     padding: 10px;
     flex: 0 0 300px;
     margin: 20px;
+    border-radius: 50px;
+    border: 10px solid white;
     text-align: center;
 }
 
@@ -108,10 +121,20 @@ header nav ul li {
     justify-content: center;
 }
 
-.card header {
+.display {
+    aspect-ratio:8/10;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.card h1 {
     font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    color:#e708b7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    border-radius: 15px;
 }
 
 .card p {
@@ -128,6 +151,5 @@ footer {
     text-align: center;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px;
-    line-height: 35px;
+    line-height: 15px;
 }
